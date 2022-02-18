@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.search{
+  position: relative;
+  display: flex;
+justify-content: center;
+  flex-direction: column;
+  &__bgc{
+
+    z-index: -1;
+  }
+  &__content{position: absolute;
+      display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 200px;
+  }
+
+  &__title{
+    margin-top: 108px;
+    display: flex;
+    text-align: center;
+    color: #FFA500;
+    justify-content: center;
+    font-size: 50px;
+    font-style: inherit;
+    border: 1px black;
+
+   ;
+
+  }
+  &__title2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Raleway,sans-serif;
+    color: #034ea2;
+    font-weight: 800;
+    z-index: 2;
+    text-transform: uppercase;
+  }
+
+  &__form{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    padding: 100px 0 100px 0;
+  }
+
+
+  &__btn1{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    padding: 3px 5px 3px 5px;
+    color: white;
+    width: 162px;
+    height: 51px;
+    background: orange;
+    outline: none;
+    border: none;
+    text-decoration:none;
+    transition: 0.7s;
+  }
+  &__btn1:hover{
+    background-color: #fff;
+    border: 1px solid orange;
+    color: orange;
+  }
+  &__content1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  &__foto{
+    height: 648px;
+    width: 100%;
+  }
+}
+.top{
+  padding: 50px 0 50px 0;
+  &__title{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+}
+.airport{
+  &__title{
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+  &__img{
+    text-align: center;
+
+    border-radius: 30px;
+    width: 550px;
+    height: 400px;
+
+  }
+  &__img2{
+    text-align: center;
+    border-radius: 30px;
+    width: 550px;
+    height: 400px;
+
+
+
+  }
+  &__subtitle{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+  }
+  &__air{
+    font-size: 20px;
+    text-align: center;
+    color: #034ea2;
+    line-height: 30px;
+
+  }
+  &__col1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}

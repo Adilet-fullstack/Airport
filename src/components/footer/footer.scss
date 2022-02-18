@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer{
+      background-color: #034ea2;
+  padding: 30px 20px 0 20px ;
+  &__title{
+    color: white;
+
+  }
+  &__li,ul,&__gmail,&__number{
+    color: orange;
+padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+  }
+&__gmail:hover{
+  transform: scale(1.03);
+  transition: 0.7s;
+  color:white ;
+}
+  &__li:hover{
+    color:white ;
+    transition: 0.7s;
+    transform: scale(1.03);
+  }
+  &__number:hover{
+    transform: scale(1.03);
+    transition: 0.7s;
+    color:white ;
+  }
+  &__copi{
+    margin-top: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+}

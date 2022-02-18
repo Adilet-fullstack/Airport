@@ -1,0 +1,235 @@
+.object{
+  width: 100%;
+  height: 700px;
+  padding: 300px;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+
+  &__title{
+    margin-top: 108px;
+    display: flex;
+    color: #FFA500;
+    justify-content: center;
+    font-size: 50px;
+    font-style: inherit;
+    border: 1px black;
+
+  ;
+    //box-shadow:0 0 5px 2px black ;
+  }
+  &__title2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color:#FFA500;
+    font-weight: 200;
+    font-style: oblique;
+    z-index: 2;
+  }
+  &__form{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    padding: 100px 0 100px 0;
+  }
+  &__input{
+    position: relative;
+
+    width: 295px;
+    height: 51px;
+    border: 2px solid #034ea2;
+    outline: none;
+    border-radius: 5px;
+    padding: 19px 10px   19px  40px ;
+    z-index: 2;
+    :before{
+      content: url("https://www.pngall.com/wp-content/uploads/8/Vector-Search.png");
+      position: absolute;
+    }
+  }
+  &__input1{
+    margin-left: 30px;
+    width: 250px;
+    height: 51px;
+    border: 2px solid #034ea2;
+    outline: none;
+    border-radius: 5px;
+    padding: 19px 10px   19px  40px ;
+    z-index: 2;
+    :before{
+      content: url("https://www.pngall.com/wp-content/uploads/8/Vector-Search.png");
+      position: absolute;
+    }
+
+  }
+  &__btn2{
+    margin-left: 30px;
+    box-shadow: 1px 1px 1px black;
+    width: 162px;
+    height: 51px;
+    border: none;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    transition: 0.7s;
+  }
+  &__btn2:hover{
+    background-color: #ffffff;
+    border: 1px solid #034ea2 ;
+    color:#034ea2 ;
+  }
+  &__btn2:active{
+    background-color: #ffffff;
+    border: 1px solid #034ea2 ;
+    color:orange;
+  }
+
+}
+.top{
+  padding: 50px 0 50px 0;
+  &__title{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+.card-wrap{
+  margin: 30px 60px;
+  background: #fff;
+  display: flex;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  color: var(--color-text);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+  rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.card-wrap:hover{
+  transform: scale(1.010);
+}
+.card-header{
+  min-height: 220px;
+
+  width: 100%;
+  background: red;
+  border-radius:100% 0% 100% 0% / 0% 50% 50% 100%;
+  display: grid;
+  place-items: center;
+
+}
+
+.card-header i{
+  color: #fff;
+  font-size: 72px;
+}
+.card-content212{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0 30px 10px 30px;
+
+}
+.card-content3333{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.card-inner{
+  width: 100%;
+
+}
+.card-btn1{
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #aaaaaa;
+}
+.card-title12{
+  width: 400px;
+  padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #034ea2;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+
+  margin-top: 10px;
+
+
+}
+.card-text{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.card-btn{
+text-align: center;
+  outline: none;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: none;
+
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+.card-header.one{
+  background: linear-gradient(to bottom left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+.card-header.two{
+  background: linear-gradient(to bottom left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+.card-header.three{
+  background: linear-gradient(to bottom left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+.card-header.four{
+  background: linear-gradient(to bottom left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}
+
+.card-btn.one{
+  background: linear-gradient(to left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+.card-btn.two{
+  background: linear-gradient(to left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+.card-btn.three{
+  background: linear-gradient(to left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+.card-btn.four{
+  background: linear-gradient(to left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}
+.show__btn{
+display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  padding: 30px 20px ;
+  text-decoration: none;
+}
+
+
+
+.show__btn.disable{
+  display: none;
+}
+.airports__list.disable{
+display: none;
+}

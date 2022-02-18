@@ -1,0 +1,141 @@
+.airline{
+  &__title{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+  }
+}
+
+
+.card-wrap12{
+  display: flex;
+
+}
+.card-row{
+  display: flex;
+}
+.card-wrap1{
+  padding: 10px 20px 10px 20px;
+  margin: 18px 4px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  color: var(--color-text);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+  rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.card-sign{
+  width: 40%;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.card-nametitle{
+  color: orange;
+}
+.card-wrap:hover  {
+  transform: scale(1.010);
+}
+.card-header{
+  min-height: 220px;
+
+  width: 100%;
+  background: red;
+  border-radius:100% 0% 100% 0% / 0% 50% 50% 100%;
+  display: grid;
+  place-items: center;
+
+}
+
+.card-header i{
+  color: #fff;
+  font-size: 72px;
+}
+.card-content{
+
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+
+
+}
+.card-content1{
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.card-inner{
+  width: 100%;
+  height: 300px;
+  padding: 5px 10px 5px 10px;
+
+}
+.card-conteinerTitle{
+  display: flex;
+  justify-content: center;
+}
+.search__form{
+  padding: 70px 0 100px 0 !important;
+}
+.card-title1{
+  width: 300px;
+  padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #034ea2;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+
+
+}
+.card-text{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.card-btn{
+  outline: none;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: none;
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+.card-header.one{
+  background: linear-gradient(to bottom left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+.card-header.two{
+  background: linear-gradient(to bottom left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+.card-header.three{
+  background: linear-gradient(to bottom left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+.card-header.four{
+  background: linear-gradient(to bottom left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}
+
+.card-btn.one{
+  background: linear-gradient(to left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+.card-btn.two{
+  background: linear-gradient(to left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+.card-btn.three{
+  background: linear-gradient(to left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+.card-btn.four{
+  background: linear-gradient(to left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}

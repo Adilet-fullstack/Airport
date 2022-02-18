@@ -1,0 +1,66 @@
+@import "font/raleway.css";
+
+.container {
+  font-family: Raleway;
+  box-shadow:  0 0  7px 0  rgba(140, 137, 137, 0.25);
+}
+
+
+
+@media (max-width: 575.98px){
+  .container {
+    max-width: 560px;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 767.98px){
+  .container {
+    max-width: 750px;
+  }
+  .card-wrap{
+    display: block;
+  }
+  .search__btn2{
+    margin-top: 30px;
+  }
+
+}
+
+@media (max-width: 1160px) {
+  .card-wrap{
+    display: block !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 960px;
+  }
+  .search__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .search__input1 {
+    margin: 20px 30px 20px 0;
+  }
+  .search__btn2{
+    margin:30px  30px 0 30px;
+  }
+
+}
+
+@media (min-width: 1120px) {
+
+  .container{
+    max-width: 1240px;
+  }
+  
+}
+@media (min-width: 1240px){
+  .container {
+    max-width: 1330px;
+  }
+}
